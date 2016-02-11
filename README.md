@@ -32,8 +32,9 @@ $$a \times x^2 + b \times x + c = 0$$
     </question>
 </quiz>
 
-# Quizzes
+## Quizzes
 
+¡No funciona!
 ---
 
 Here's a quiz about Gitbook
@@ -57,3 +58,61 @@ What does Gitbook support?
 > Gitbook is not telepathic and does not give you the moon on a stick.
 
 ---
+
+## asciitree
+
+No parece funcionar
+
+Convert indented lines to ascii directory tree for gitbook.
+
+you can see asciitree in action. 
+[https://jianglibo.gitbooks.io](https://jianglibo.gitbooks.io)
+
+    app
+    -main.js
+    -helper.js
+    -others
+    --Brocfile.js
+    package.json
+
+##exercises
+
+No parece funcionar
+
+{% exercise %}
+Define a variable `x` equal to 10.
+{% initial %}
+var x =
+{% solution %}
+var x = 10;
+{% validation %}
+assert(x == 10);
+{% context %}
+// This is context code available everywhere
+// The user will be able to call magicFunc in his code
+function magicFunc() {
+    return 3;
+}
+{% endexercise %}
+
+## ace
+
+The [plugin](https://plugins.gitbook.com/plugin/ace) has a basic syntax:
+
+{%ace edit=true%}
+// This is a hello world program for C.
+#include <stdio.h>
+
+int main(){
+  printf("Hello World!");
+  return 1;
+}
+{%endace%}
+
+* `lang`: the language for syntax highlight. 
+For the full list of keyword for each language, please check out the github page of ace [here](https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict), 
+all the related files are starting with prefix `mode-`. For instance:
+
+        mode_c_cpp.js ----> c_cpp
+        mode_java.js ----> java
+        ...

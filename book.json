@@ -1,3 +1,8 @@
 {
-    "plugins": ["katex", "quiz", "quizzes" ]
+    "plugins": ["katex", "quiz", "quizzes" , "asciitree", "ace", "exercises"],
+    "pluginsConfig": {
+        "asciitree": {
+            "leadingChar": "no need, because plugin will guess leadingChar."
+        }
+    }
 }
