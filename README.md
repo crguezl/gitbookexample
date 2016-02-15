@@ -96,6 +96,25 @@ function magicFunc() {
 }
 {% endexercise %}
 
+Jazer ha encontrado el problema:
+
+plugin, carpetadelproyecto/node_modules/gitbook-plugin-exercises y editar el archivo index.js.
+
+Se cambia la linea
+
+          "body:end": function(options) {
+                          return '<script src="'+options.staticBase+'/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>';
+                      }
+
+por
+
+        "body:start": function(options) {
+                        return '<script src="'+options.staticBase+'/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>';
+                    }
+
+(la diferencia está en body:end por body:start)
+guardamos y ya deberia de funcionar correctamente el plugin. 
+
 ## ace
 
 The [plugin](https://plugins.gitbook.com/plugin/ace) has a basic syntax:
@@ -117,3 +136,4 @@ all the related files are starting with prefix `mode-`. For instance:
         mode_c_cpp.js ----> c_cpp
         mode_java.js ----> java
         ...
+
