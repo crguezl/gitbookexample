@@ -19,6 +19,11 @@ you can see asciitree in action.
     --Brocfile.js
     package.json
 
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
 
 {% asciitree %}
 app

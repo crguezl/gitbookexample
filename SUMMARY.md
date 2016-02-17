@@ -1,7 +1,5 @@
 # Summary
 
-      * [exercises](./exercises.md)
-
 * Que funcionan
   * [latex](./latex.md)
   * [ace](./ace.md)
@@ -11,3 +9,6 @@
   * [youtube](./youtube.md)
 * [Que no funcionan](nofuncionan.md)
   * [quizzes](./quizzes.md)
+
+* [Código](codigo.md)
+
