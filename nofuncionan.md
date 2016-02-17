@@ -1,1 +1,1 @@
-Los plugins que vienen a continuación no los he logrado hace funcionar.
+Los plugins que vienen a continuación no los he logrado hacer funcionar.

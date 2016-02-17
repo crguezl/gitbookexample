@@ -17,7 +17,12 @@
           }
           {% endexercise %}
 
-No parece funcionar
+Parece funcionar aunque me da un par de errores en la consola:
+
+        GET http://localhost:4000/'+options.staticBase+'/plugins/gitbook-plugin-exercises/jsrepl/jsrepl.js?_=1455723481008 404 (Not Found)send @ app.js:8631jQuery.extend.ajax @ app.js:8167jQuery._evalUrl @ app.js:8324jQuery.fn.extend.domManip @ app.js:5433jQuery.fn.extend.replaceWith @ app.js:5343(anonymous function) @ app.js:24564fire @ app.js:3100self.fireWith @ app.js:3212done @ app.js:8265(anonymous function) @ app.js:8606
+
+        VM93:1 Uncaught SyntaxError: Unexpected identifierjQuery.extend.globalEval @ app.js:329jQuery.ajaxSetup.converters.text script @ app.js:8662ajaxConvert @ app.js:7797done @ app.js:8216(anonymous function) @ app.js:8606send @ app.js:8631jQuery.extend.ajax @ app.js:8167jQuery._evalUrl @ app.js:8324jQuery.fn.extend.domManip @ app.js:5433jQuery.fn.extend.replaceWith @ app.js:5343(anonymous function) @ app.js:24564fire @ app.js:3100self.fireWith @ app.js:3212done @ app.js:8265(anonymous function) @ app.js:8606
+
 
 {% exercise %}
 Define a variable `x` equal to 10.
