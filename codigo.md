@@ -1,3 +1,8 @@
+        ```python
+
+            s = "Python syntax highlighting"
+            print s
+
 ```python
 
     s = "Python syntax highlighting"
@@ -12,10 +17,9 @@
 
 Parece haber una interferencia entre el código y el plugin exercises
 
-          ```javascript
+          javascript
           var s = "JavaScript syntax highlighting";
-          alert(s);
-          ```
+          alert(s); ```
 
 ```javascript
 var s = "JavaScript syntax highlighting";
