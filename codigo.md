@@ -10,6 +10,16 @@
 
 ```
 
+blah blah blah
+
+Me extraña la falta de espacios en blanco en la primera línea
+
+```ruby
+
+    s = "Ruby syntax highlighting"
+    puts s
+```
+
 ```
   No language indicated, so no syntax highlighting.
   3 < b > x
