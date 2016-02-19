@@ -7,8 +7,9 @@
   * [exercises](./exercises.md)
   * [asciitree](./asciitree.md)
   * [youtube](./youtube.md)
+  * [jsfiddle](./jsfiddle.md)
+  * [js sequence diagram](./jssequencediagram.md)
 * [Que no funcionan](nofuncionan.md)
   * [quizzes](./quizzes.md)
 
 * [Código](codigo.md)
-

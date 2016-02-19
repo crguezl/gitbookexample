@@ -42,12 +42,12 @@ function magicFunc() {
 
 Jazer ha encontrado el problema:
 
-plugin, 
+plugin,
 
 
-            carpetadelproyecto/node_modules/gitbook-plugin-exercises 
+            carpetadelproyecto/node_modules/gitbook-plugin-exercises
 
-y editar el archivo 
+y editar el archivo
 
             index.js.
 
@@ -64,5 +64,25 @@ por
                     }
 
 (la diferencia está en `body:end` por `body:start`)
-guardamos y ya deberia de funcionar correctamente el plugin. 
+guardamos y ya deberia de funcionar correctamente el plugin.
 
+Otra solución: usar el plugin  [ exercises-tmp-fixed-6](https://plugins.gitbook.com/plugin/exercises-tmp-fixed-6)
+que es un fork temporal de `exercises` (Esto fué escrito el 19/02/2016).
+
+Otro ejemplo de uso:
+
+{% exercise %}
+¿Quién descubrió América?
+{% initial %}
+var x =
+{% solution %}
+var x = "Cristóbal Colón";
+{% validation %}
+x.match(/crist[oó]bal\s+colón/i)
+{% context %}
+// This is context code available everywhere
+// The user will be able to call magicFunc in his code
+function magicFunc() {
+    return 3;
+}
+{% endexercise %}

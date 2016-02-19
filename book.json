@@ -1,8 +1,17 @@
 {
-    "plugins": ["katex", "quiz", "quizzes" , "asciitree", "ace", "exercises", "youtube"],
+    "plugins": ["katex", "quiz", "quizzes" , "asciitree",
+                "ace", "exercises-tmp-fixed-6", "youtube",
+                "jsfiddle", "js-sequence-hand-diagram"],
     "pluginsConfig": {
         "asciitree": {
             "leadingChar": "no need, because plugin will guess leadingChar."
+        },
+        "jsfiddle":{
+          "type":"script",
+          "tabs":["result","js", "html"],
+          "height": "1000",
+          "width": "500",
+          "fontColor": "00FF00"
         }
     }
 }
