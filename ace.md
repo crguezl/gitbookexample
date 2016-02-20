@@ -3,16 +3,15 @@
 The [plugin](https://plugins.gitbook.com/plugin/ace) has a basic syntax:
 
 ```C
+{%ace edit=true%}
+// This is a hello world program for C.
+#include <stdio.h>
 
-              {%ace edit=true%}
-              // This is a hello world program for C.
-              #include <stdio.h>
-
-              int main(){
-                printf("Hello World!");
-                return 1;
-              }
-              {%endace%}
+int main(){
+  printf("Hello World!");
+  return 1;
+}
+{%endace%}
 ```
 
 {%ace edit=true%}

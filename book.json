@@ -5,6 +5,22 @@
                 "websequencediagrams"
               ],
     "pluginsConfig": {
+        "autocover": {
+          "title": "My Book",
+          "author": "Author",
+         "font": {
+           "size": null,
+           "family": "Impact",
+           "color": "#FFF"
+         },
+         "size": {
+           "w": 1800,
+           "h": 2360
+         },
+         "background": {
+           "color": "#09F"
+         }
+        },
         "asciitree": {
             "leadingChar": "no need, because plugin will guess leadingChar."
         },

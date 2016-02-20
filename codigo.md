@@ -1,13 +1,13 @@
-        ```python
-
-            s = "Python syntax highlighting"
-            print s
-
-```python
-
+```
+``&#96;python
     s = "Python syntax highlighting"
     print s
+``&#96;
+```
 
+```python
+s = "Python syntax highlighting"
+print s
 ```
 
 blah blah blah
@@ -26,11 +26,15 @@ Me extraña la falta de espacios en blanco en la primera línea
   But let's throw in a <b>tag</b>.
 ```
 
-Parece haber algo raro con el código javascript y el plugin exercises
+Parecía haber algo raro con el código javascript y el plugin exercises.
+Cuando he usado el parche parece haberse arreglado.
 
-          javascript
-          var s = "JavaScript syntax highlighting";
-          alert(s); ```
+```
+``&#96;javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+``&#96;
+```
 
 ```javascript
 var s = "JavaScript syntax highlighting";
