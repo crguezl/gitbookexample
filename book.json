@@ -2,7 +2,7 @@
     "plugins": ["katex", "quiz", "quizzes" , "asciitree",
                 "ace", "exercises-tmp-fixed-6", "youtube",
                 "jsfiddle", "js-sequence-hand-diagram",
-                "websequencediagrams"
+                "websequencediagrams", "disqus"
               ],
     "pluginsConfig": {
         "autocover": {
@@ -30,6 +30,9 @@
           "height": "1000",
           "width": "500",
           "fontColor": "00FF00"
+        },
+        "disqus": {
+            "shortName": "disqus_niGGTKlDtX"
         }
     }
 }
