@@ -9,6 +9,8 @@
   * [youtube](./youtube.md)
   * [jsfiddle](./jsfiddle.md)
   * [js sequence diagram](./jssequencediagram.md)
+  * [disqus](./disqus.md)
+  * [copy-code-button](./copy-code-button.md)
 * [Que no me funcionan](nofuncionan.md)
   * [quizzes](./quizzes.md)
   * [autocover](./autocover.md)
