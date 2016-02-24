@@ -1,3 +1,5 @@
+## js sequence diagram
+
 ``` sequence-hand
 Title: Here is a title
 A->B: Normal line
