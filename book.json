@@ -2,7 +2,7 @@
     "plugins": ["katex", "quiz", "quizzes" , "asciitree",
                 "ace", "exercises-tmp-fixed-6", "youtube",
                 "jsfiddle", "js-sequence-hand-diagram",
-                "websequencediagrams", "disqus"
+                "websequencediagrams", "disqus", "copy-code-button"
               ],
     "pluginsConfig": {
         "autocover": {
