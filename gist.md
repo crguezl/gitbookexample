@@ -2,7 +2,7 @@ See [gitbook-plugin-gist](https://www.npmjs.com/package/gitbook-plugin-gist).
 
 Configure the plugin in your `book.json`:
 
-´´´JavaScript
+´´´
 {
     "plugins": ["gist"]
 }
