@@ -11,12 +11,12 @@
   * [js sequence diagram](./jssequencediagram.md)
   * [disqus](./disqus.md)
   * [copy-code-button](./copy-code-button.md)
-  * [gist](gist.md)
 
 * [Que no me funcionan](nofuncionan.md)
   * [quizzes](./quizzes.md)
   * [autocover](./autocover.md)
   * [web sequence diagrams](./websequencediagrams.md)
+  * [gist](gist.md)
 
 * [Código](codigo.md)
 * [Variables](variables.md)
