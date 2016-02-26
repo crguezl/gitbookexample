@@ -1,4 +1,8 @@
 {
+
+    "variables": {
+        "myVariable": "Hello World"
+    },
     "plugins": ["katex", "quiz", "quizzes" , "asciitree",
                 "ace", "exercises-tmp-fixed-6", "youtube",
                 "jsfiddle", "js-sequence-hand-diagram",

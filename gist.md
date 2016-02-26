@@ -21,6 +21,13 @@ Include a Gist using the gist block:
 
 
  
- 
+{% raw %}
 {% gist id="SamyPesse/6ceb8cb8d531ffab75f0",file="README.md" %}{% endgist %}
- 
+{% endraw %} 
+
+## Variables inside Templates
+
+`temperature = ` {{ book.myVariable }}
+
+will be "Hello World"
+
