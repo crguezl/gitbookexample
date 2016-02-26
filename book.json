@@ -1,36 +1,33 @@
 {
-    "plugins": ["katex", "quiz", "quizzes" , "asciitree",
-                "ace", "exercises-tmp-fixed-6", "youtube",
-                "jsfiddle", "js-sequence-hand-diagram",
-                "websequencediagrams", "disqus", "copy-code-button", 
-                "gist"
-              ],
+    "plugins": [
+        "katex",
+        "quiz",
+        "quizzes",
+        "asciitree",
+        "ace",
+        "exercises-tmp-fixed-6",
+        "youtube",
+        "jsfiddle",
+        "js-sequence-hand-diagram",
+        "websequencediagrams",
+        "disqus",
+        "copy-code-button",
+        "-gist"
+    ],
     "pluginsConfig": {
-        "autocover": {
-          "title": "My Book",
-          "author": "Author",
-         "font": {
-           "size": null,
-           "family": "Impact",
-           "color": "#FFF"
-         },
-         "size": {
-           "w": 1800,
-           "h": 2360
-         },
-         "background": {
-           "color": "#09F"
-         }
-        },
         "asciitree": {
             "leadingChar": "no need, because plugin will guess leadingChar."
         },
-        "jsfiddle":{
-          "type":"script",
-          "tabs":["result","js", "html"],
-          "height": "1000",
-          "width": "500",
-          "fontColor": "00FF00"
+        "jsfiddle": {
+            "type": "script",
+            "tabs": [
+                "result",
+                "js",
+                "html"
+            ],
+            "height": "1000",
+            "width": "500",
+            "fontColor": "00FF00"
         },
         "disqus": {
             "shortName": "gitbookexample"
