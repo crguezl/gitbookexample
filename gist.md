@@ -2,11 +2,11 @@ See [gitbook-plugin-gist](https://www.npmjs.com/package/gitbook-plugin-gist).
 
 Configure the plugin in your `book.json`:
 
-´´´´javascript
+```javascript
 {
     "plugins": ["gist"]
 }
-´´´
+```
 
 Include a Gist using the gist block:
 
@@ -24,10 +24,4 @@ Include a Gist using the gist block:
 {% raw %}
 {% gist id="SamyPesse/6ceb8cb8d531ffab75f0",file="README.md" %}{% endgist %}
 {% endraw %} 
-
-## Variables inside Templates
-
-`temperature = ` {{ book.myVariable }}
-
-will be "Hello World"
 

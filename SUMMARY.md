@@ -19,3 +19,4 @@
   * [web sequence diagrams](./websequencediagrams.md)
 
 * [Código](codigo.md)
+* [Variables](variables.md)
