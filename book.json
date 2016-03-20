@@ -5,7 +5,7 @@
     "plugins": ["katex", "quiz", "quizzes" , "asciitree",
                 "ace", "exercises-tmp-fixed-6", "youtube",
                 "jsfiddle", "js-sequence-hand-diagram",
-                "jazer",
+                "jazer2",
                 "websequencediagrams", "disqus", "copy-code-button", 
                 "gist"
               ],

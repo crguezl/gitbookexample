@@ -6,7 +6,10 @@
 {% solution %}
 Cristobal Colon
 {% validation %}
-^\s*(Cristobal)?\s+Col[oó]n\s*$
+/^\s*
+     (Cristobal\s+)? # nombre opcional
+     Col[oó]n        # apellido
+\s*$/ix
 {% endregexp %}
 ```
 
@@ -15,7 +18,10 @@ Cristobal Colon
 {% solution %}
 Cristobal Colon
 {% validation %}
-^\s*(Cristobal)?\s+Col[oó]n\s*$
+/^\s*
+     (Cristobal\s+)? # nombre opcional
+     Col[oó]n        # apellido
+\s*$/ix
 {% endregexp %}
 
 ```
@@ -24,7 +30,7 @@ Cristobal Colon
 {% solution %}
 Madrid
 {% validation %}
-\s*[mM]adrid\s*
+/\s*[mM]adrid\s*/i
 {% endregexp %}
 ```
 
@@ -33,5 +39,5 @@ Madrid
 {% solution %}
 Madrid
 {% validation %}
-\s*[mM]adrid\s*
+/\s*[mM]adrid\s*/i
 {% endregexp %}
