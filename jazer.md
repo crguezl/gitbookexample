@@ -30,7 +30,7 @@ Cristobal Colon
 {% solution %}
 Madrid
 {% validation %}
-/\s*[mM]adrid\s*/i
+/\s*Madrid\s*/i
 {% endregexp %}
 ```
 
@@ -39,5 +39,5 @@ Madrid
 {% solution %}
 Madrid
 {% validation %}
-/\s*[mM]adrid\s*/i
+/\s*Madrid\s*/i
 {% endregexp %}
