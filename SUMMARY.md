@@ -11,6 +11,7 @@
   * [js sequence diagram](./jssequencediagram.md)
   * [disqus](./disqus.md)
   * [jazer](./jazer.md)
+  * [mermaid](./mermaid.md)
   * [copy-code-button](./copy-code-button.md)
 
 * [Que no me funcionan](nofuncionan.md)
