@@ -17,7 +17,7 @@
         "disqus",
         "copy-code-button",
         "gist",
-        "mermaid"
+        "-mermaid"
     ],
     "pluginsConfig": {
         "asciitree": {
