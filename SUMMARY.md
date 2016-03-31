@@ -12,6 +12,7 @@
   * [disqus](./disqus.md)
   * [jazer](./jazer.md)
   * [copy-code-button](./copy-code-button.md)
+  * [mermaid](mermaid.md)
 
 * [Que no me funcionan](nofuncionan.md)
   * [quizzes](./quizzes.md)
