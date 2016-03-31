@@ -2,13 +2,23 @@
     "variables": {
         "myVariable": "Hello World"
     },
-    "plugins": ["katex", "quiz", "quizzes" , "asciitree",
-                "ace", "exercises-tmp-fixed-6", "youtube",
-                "jsfiddle", "js-sequence-hand-diagram",
-                "jazer2",
-                "websequencediagrams", "disqus", "copy-code-button", 
-                "gist"
-              ],
+    "plugins": [
+        "katex",
+        "quiz",
+        "quizzes",
+        "asciitree",
+        "ace",
+        "exercises-tmp-fixed-6",
+        "youtube",
+        "jsfiddle",
+        "js-sequence-hand-diagram",
+        "jazer2",
+        "websequencediagrams",
+        "disqus",
+        "copy-code-button",
+        "gist",
+        "mermaid"
+    ],
     "pluginsConfig": {
         "asciitree": {
             "leadingChar": "no need, because plugin will guess leadingChar."
