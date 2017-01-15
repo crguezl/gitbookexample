@@ -13,6 +13,7 @@
   * [jazer](./jazer.md)
   * [copy-code-button](./copy-code-button.md)
   * [mermaid](mermaid.md)
+  * [collapsible-menu](https://github.com/rtCamp/gitbook-plugin-collapsible-menu)
 
 * [Que no me funcionan](nofuncionan.md)
   * [quizzes](./quizzes.md)
