@@ -6,6 +6,7 @@ y otros que no he logrado hacer funcionar.
 PI is:
 {{ book.PI }}
 
+<!--
 book is
 
 {{ book }}
@@ -26,3 +27,4 @@ config is:
 language is:
 
 {{ book.language }}
+-->

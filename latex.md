@@ -5,7 +5,7 @@ Ejemplo de Látex:
 
 Inline math: $$\int_{-\infty}^\infty g(x) dx$$
 
-Otro ejemplo:
+Otros ejemplo:
 
 1. $$a \times x^2 + b \times x + c = 0$$
 2. $$ x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \frac{1}{a_4} } } }$$
