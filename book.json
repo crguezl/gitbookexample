@@ -1,11 +1,12 @@
 {
     "variables": {
-        "myVariable": "Hello World"
+        "myVariable": "Hello World",
+        "PI": "3,14159..."
     },
     "plugins": ["katex", "quiz", "quizzes" , "asciitree",
                 "ace", "exercises-tmp-fixed-6", "youtube",
                 "jsfiddle", "js-sequence-hand-diagram",
-                "jazer", "mermaid",
+                "jazer", "-mermaid",
                 "websequencediagrams", "disqus", "copy-code-button", 
                 "gist"
               ],
